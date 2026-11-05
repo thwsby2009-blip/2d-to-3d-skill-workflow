@@ -6,7 +6,15 @@
 
 這次實驗不是再建立一個角色模型，而是檢查既有的「輸入檢查 → 幾何處理 → 數值驗證 → 格式交付」技能流，能否延伸到市售 BIM 產品物件。
 
-測試對象為一個 DURAVIT 馬桶產品下載包。官方產品照只用於目視比對，第三方圖片、原始 IFC 與其他產品檔案未納入本儲存庫。
+測試對象為 BIMobject 上的 [DURAVIT White Tulip 落地式馬桶 200109](https://www.bimobject.com/zh/duravit/product/white-tulip-floor-mounted-toilet-200109) 產品下載包。官方產品照只用於目視比對，第三方圖片、原始 IFC 與其他產品檔案未納入本儲存庫。
+
+### 素材來源與授權界線
+
+產品頁將素材標示為可免費下載，但「免費下載」不等同採用開源授權。BIMobject 現行使用條款將 BIM 物件、CAD／3D 檔、產品資訊及圖片納入 `Content`，允許個人使用、建築專業專案使用及純教育／研究等指定用途；條款同時說明權利仍由 BIMobject 與其授權人／製造商保留，沒有因下載而移轉所有權，並限制向第三方散布或提供存取。
+
+因此本儲存庫只公開自行撰寫的測試方法、量測結果與分析，不重新散布原始產品包或官方照片。若產品頁另行提供明確的開源或再散布授權，才應依該授權文字與標示方式處理。
+
+參考：[BIMobject User Terms of Service（2025-06-24 生效）](https://business.bimobject.com/terms-of-service-eula/)
 
 ## 下載包中的容器
 
