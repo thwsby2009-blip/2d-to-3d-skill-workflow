@@ -11,6 +11,8 @@
 | 原正式版機器人雜湊 | `9989719fdadc1ab3fbb88b8cbbadeeca0be4600573371936d7f40e471d0d7cea`，與來源說明一致 |
 | 原正式版綿羊雜湊 | `44d451959062bf5b17e4a6805762099af3997a2b39bd7ad5b27c756d2a1867fc`，與來源說明一致 |
 | 綿羊 GLB | magic 為 glTF、版本 2、宣告長度與實際 757,576 bytes 一致；僅驗證檔頭，未做完整匯入測試 |
+| 桌面匯出交付包 | `sheep_3D_RELEASE_v1` 中的 GLB、OBJ、MTL、PLY、一般 STL 與 100mm STL，六個檔案 SHA-256 皆與儲存庫 export 目錄一致 |
+| GLB 回讀圖片 | 已目視檢查桌面交付包的 `glb_check_sheet.png`；圖片檢查不代表本次重新執行匯入驗證 |
 | README 與整理文件的本地 Markdown 連結 | 目標檔案均存在 |
 | 封存圖片目視檢查 | 機器人正式版透視與綿羊原圖／模型／疊圖對照已查看 |
 

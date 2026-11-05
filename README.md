@@ -66,7 +66,9 @@ tools/run_case.py           將原腳本路徑映射到本儲存庫的執行入�
 build/                     本機重跑產物（不納入 Git）
 ```
 
-直接下載即可用 Blender 開啟兩個 `release/` 目錄中的 `.blend` 檔；綿羊另附 `.glb` 格式。
+直接下載即可用 Blender 開啟兩個 `release/` 目錄中的 `.blend` 檔。綿羊的[匯出目錄](cases/sheep/release/export/)包含 GLB、OBJ／MTL、PLY、STL 與檔名標示 100mm 的 STL。六個檔案已與使用者指定的桌面交付包逐一核對 SHA-256，內容完全一致；100mm 檔案尚未於本次整理中做尺寸或列印驗證。
+
+![GLB 回讀展示：正面、斜前方與背面](cases/sheep/release/views/09_glb_roundtrip.png)
 
 ## 執行方式
 
