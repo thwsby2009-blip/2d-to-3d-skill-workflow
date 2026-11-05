@@ -1,0 +1,5 @@
+* text=auto
+cases/** -text
+skills/** -text
+docs/TECH_2D_TO_3D.md -text
+MANIFEST.sha256 text eol=lf
